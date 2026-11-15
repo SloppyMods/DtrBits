@@ -1,0 +1,20 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>DtrBits</AssemblyName>
+    <RootNamespace>DtrBits.Plugin</RootNamespace>
+    <Version>0.1.0.0</Version>
+    <Author>SloppyMods</Author>
+    <Name>DTR Bits</Name>
+    <Punchline>Clickable server info bar entries: gearset switcher, gear repair and spiritbond.</Punchline>
+    <Description>Adds small clickable entries to the server info (DTR) bar: a gearset switcher window, lowest gear condition (opens Repair) and highest spiritbond (opens Materia Extraction). New entries are one small class each.</Description>
+    <DalamudApiLevel>15</DalamudApiLevel>
+    <Tags>dtr, server info bar, repair, spiritbond, gearset</Tags>
+    <CategoryTags>UI</CategoryTags>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DtrBits.Core/DtrBits.Core.csproj" />
+  </ItemGroup>
+</Project>
